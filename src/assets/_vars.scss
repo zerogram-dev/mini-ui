@@ -1,0 +1,33 @@
+:root {
+  --mini-c-primary: #2481cc;
+  --mini-c-text: #000000;
+  --mini-c-bg: #ffffff;
+  --mini-c-bg-secondary: #EFEFF3;
+
+  /* Component / Section */
+  --mini-c-section-bg: #ffffff;
+  --mini-c-section-header: #6d6d71;
+  --mini-c-section-footer: #6d6d71;
+
+  /* Component / Switch */
+  --mini-c-switch-thumb: var(--mini-c-section-bg);
+  --mini-c-switch-checked-bg: var(--mini-c-primary);
+  --mini-c-switch-unchecked-bg: #e4e4e4;
+}
+
+:root.dark {
+  --mini-c-primary: #007aff;
+  --mini-c-text: #dfdfdf;
+  --mini-c-bg: #282828;
+  --mini-c-bg-secondary: #1C1C1C;
+
+  /* Component / Section */
+  --mini-c-section-bg: #282828;
+  --mini-c-section-header: #8b8b8b;
+  --mini-c-section-footer: #8b8b8b;
+
+  /* Component / Switch */
+  --mini-c-switch-thumb: var(--mini-c-section-bg);
+  --mini-c-switch-checked-bg: var(--mini-c-primary);
+  --mini-c-switch-unchecked-bg: #3f464c;
+}
